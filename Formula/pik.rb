@@ -1,28 +1,28 @@
 class Pik < Formula
     desc "Process interactive kill"
     homepage "https://github.com/jacek-kurlit/pik"
-    version "0.30.2"
+    version "1.0.0"
 
 
     on_macos do
       on_arm do
         url "https://github.com/jacek-kurlit/pik/releases/download/0.30.2/pik-0.30.2-aarch64-apple-darwin.tar.gz"
-        sha256 "ae089a4a6fcec2b238c0dd36b4aac147e5e4ab106f5d383a9ba8013e3af6e2fa"
+        sha256 "4c7d38cc7810d2234fe309aea83520a85c9b5c880f503bcc8fc4023b61ce4486"
       end
       on_intel do
         url "https://github.com/jacek-kurlit/pik/releases/download/0.30.2/pik-0.30.2-x86_64-apple-darwin.tar.gz"
-        sha256 "046490a08f905738a57ec1a902f3e0966732d86356a9a0775de4942f26b7a47c"
+        sha256 "1704cc1cd7ad04c3022c483e20bcf41fda2845c73faa5f2f9d7020f9035cc465"
       end
     end
 
     on_linux do
       on_arm do
         url "https://github.com/jacek-kurlit/pik/releases/download/0.30.2/pik-0.30.2-aarch64-unknown-linux-gnu.tar.gz"
-        sha256 "8cf98bd5e8ade19bb23dcf8f8ea1c394d27b13efd1a66327be92ab7094b56b99"
+        sha256 "1aba9568a6753ae92fc745de83b95ec86730344e610cd347da02f4c5d7d7af76"
       end
       on_intel do
         url "https://github.com/jacek-kurlit/pik/releases/download/0.30.2/pik-0.30.2-x86_64-unknown-linux-gnu.tar.gz"
-        sha256 "c93720231d43bd146029cd3cb67ffb7f1fab6aa25085f52c0f866fbc3c64596d"
+        sha256 "7c795ff6e32919b3320cd13a182015d8c64a155de3715559343a094d60028fb5"
       end
     end
 
